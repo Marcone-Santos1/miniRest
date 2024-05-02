@@ -51,6 +51,12 @@
         ],
         "post-update-cmd": [
             "@create-files"
+        ],
+        "post-package-install": [
+            "@create-files"
+        ],
+        "post-package-update": [
+            "@create-files"
         ]
     }
 }
