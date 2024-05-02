@@ -1,6 +1,5 @@
 {
     "name": "ms580/mini-rest",
-    "version": "0.0.2",
     "autoload": {
         "psr-4": {
             "MiniRest\\": "src/"
