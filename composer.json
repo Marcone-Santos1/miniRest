@@ -35,28 +35,7 @@
     "scripts": {
 
         "create-files": [
-            "mkdir config",
-            "mkdir routers",
 
-            "php -r \"copy('vendor/ms580/mini-rest/config/config.php', 'config/config.php');\"",
-            "php -r \"copy('vendor/ms580/mini-rest/routers/api.php', 'routers/api.php');\"",
-            "php -r \"copy('vendor/ms580/mini-rest/.env', '.env');\"",
-            "php -r \"copy('vendor/ms580/mini-rest/.env.example', '.env.example');\"",
-            "php -r \"copy('vendor/ms580/mini-rest/index.php', 'index.php');\"",
-            "php -r \"copy('vendor/ms580/mini-rest/miniRest', 'miniRest');\""
-        ],
-
-        "post-install-cmd": [
-            "@create-files"
-        ],
-        "post-update-cmd": [
-            "@create-files"
-        ],
-        "post-package-install": [
-            "@create-files"
-        ],
-        "post-package-update": [
-            "@create-files"
         ],
         "post-create-project-cmd": [
             "@create-files"
