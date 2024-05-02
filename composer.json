@@ -48,6 +48,9 @@
 
         "post-install-cmd": [
             "@create-files"
+        ],
+        "post-update-cmd": [
+            "@create-files"
         ]
     }
 }
