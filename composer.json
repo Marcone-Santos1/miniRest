@@ -35,8 +35,8 @@
     "scripts": {
 
         "create-files": [
-            "mkdir -p config",
-            "mkdir -p routers",
+            "mkdir config",
+            "mkdir routers",
 
             "php -r \"copy('vendor/ms580/mini-rest/config/config.php', 'config/config.php');\"",
             "php -r \"copy('vendor/ms580/mini-rest/routers/api.php', 'routers/api.php');\"",
@@ -56,6 +56,9 @@
             "@create-files"
         ],
         "post-package-update": [
+            "@create-files"
+        ],
+        "post-create-project-cmd": [
             "@create-files"
         ]
     }
