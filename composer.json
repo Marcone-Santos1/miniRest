@@ -33,8 +33,8 @@
         "phpunit/phpunit": "^10.3"
     },
     "scripts": {
-        "post-install-cmd": [
 
+        "create-files": [
             "mkdir -p config",
             "mkdir -p routers",
 
@@ -44,6 +44,10 @@
             "php -r \"copy('vendor/ms580/mini-rest/.env.example', '.env.example');\"",
             "php -r \"copy('vendor/ms580/mini-rest/index.php', 'index.php');\"",
             "php -r \"copy('vendor/ms580/mini-rest/miniRest', 'miniRest');\""
+        ],
+
+        "post-install-cmd": [
+            "@create-files"
         ]
     }
 }
