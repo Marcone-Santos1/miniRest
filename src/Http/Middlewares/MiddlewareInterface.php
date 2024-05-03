@@ -3,7 +3,7 @@
 namespace MiniRest\Http\Middlewares;
 
 use Closure;
-use MiniRest\Http\Request\Request;
+use MiniRestFramework\Http\Request\Request;
 
 interface MiddlewareInterface
 {

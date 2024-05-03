@@ -2,7 +2,7 @@
 
 namespace MiniRest\Http\Controllers;
 
-use MiniRest\Http\Response\Response;
+use MiniRestFramework\Http\Response\Response;
 
 class TestController
 {

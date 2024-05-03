@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "bec6c949143e6476b67987b05b55f48c",
+    "content-hash": "ab8db866c48a097022944fc08d250397",
     "packages": [
         {
             "name": "aws/aws-crt-php",
@@ -1420,6 +1420,56 @@
                 "source": "https://github.com/ircmaxell/password_compat/tree/v1.0"
             },
             "time": "2014-11-20T16:49:30+00:00"
+        },
+        {
+            "name": "ms580/mini-rest-framework",
+            "version": "0.0.9",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Marcone-Santos1/Framework.git",
+                "reference": "2c09968092aad336ff35e17e659b0d9a64ddb4df"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Marcone-Santos1/Framework/zipball/2c09968092aad336ff35e17e659b0d9a64ddb4df",
+                "reference": "2c09968092aad336ff35e17e659b0d9a64ddb4df",
+                "shasum": ""
+            },
+            "require": {
+                "aws/aws-sdk-php": "^3.281",
+                "cboden/ratchet": "^0.4.4",
+                "ext-fileinfo": "*",
+                "ext-json": "*",
+                "ext-pdo": "*",
+                "firebase/php-jwt": "^6.8",
+                "illuminate/database": "^10.19",
+                "illuminate/pagination": "^10.19",
+                "ircmaxell/password-compat": "^1.0",
+                "ramsey/uuid": "^4.7",
+                "symfony/console": "^6.3",
+                "vlucas/phpdotenv": "^5.5"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^10.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "MiniRestFramework\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Marcone Santos",
+                    "email": "98716688+Marcone-Santos1@users.noreply.github.com"
+                }
+            ],
+            "support": {
+                "issues": "https://github.com/Marcone-Santos1/Framework/issues",
+                "source": "https://github.com/Marcone-Santos1/Framework/tree/0.0.9"
+            },
+            "time": "2024-05-03T00:27:29+00:00"
         },
         {
             "name": "mtdowling/jmespath.php",
@@ -5640,11 +5690,7 @@
     "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": {
-        "ext-json": "*",
-        "ext-pdo": "*",
-        "ext-fileinfo": "*"
-    },
+    "platform": [],
     "platform-dev": [],
     "plugin-api-version": "2.6.0"
 }

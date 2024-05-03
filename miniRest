@@ -15,8 +15,8 @@ require_once __DIR__.'/vendor/autoload.php';
 require_once __DIR__ . '/config/config.php';
 
 use MiniRest\Console\RunMakeCommand;
-use Symfony\Component\Console\Application;
 use MiniRest\Console\RunServeCommand;
+use Symfony\Component\Console\Application;
 
 if (PHP_OS_FAMILY === 'Linux') {
     shell_exec('chmod +x ' . __FILE__);

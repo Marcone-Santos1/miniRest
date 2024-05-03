@@ -16,18 +16,7 @@
         }
     ],
     "require": {
-        "ext-json": "*",
-        "vlucas/phpdotenv": "^5.5",
-        "illuminate/database": "^10.19",
-        "symfony/console": "^6.3",
-        "illuminate/pagination": "^10.19",
-        "firebase/php-jwt": "^6.8",
-        "ircmaxell/password-compat": "^1.0",
-        "aws/aws-sdk-php": "^3.281",
-        "ramsey/uuid": "^4.7",
-      "ext-pdo": "*",
-        "ext-fileinfo": "*",
-        "cboden/ratchet": "^0.4.4"
+        "ms580/mini-rest-framework": "^0.0.9"
     },
     "require-dev": {
         "phpunit/phpunit": "^10.3"

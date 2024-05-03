@@ -2,17 +2,9 @@
 
 namespace MiniRest\Console;
 
-use \Symfony\Component\Console\Command\Command as SymfonyCommand;
-use Symfony\Component\Console\Input\InputInterface;
-use Symfony\Component\Console\Output\OutputInterface;
+use MiniRestFramework\Console\Command as MiniRestFrameworkCommand;
 
-abstract class Command extends SymfonyCommand
+abstract class Command extends MiniRestFrameworkCommand
 {
-    protected function configure()
-    {
-    }
 
-    protected function execute(InputInterface $input, OutputInterface $output)
-    {
-    }
 }

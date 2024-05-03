@@ -1,5 +1,5 @@
 <?php
 
-use MiniRest\Router\Router;
+use MiniRestFramework\Router\Router;
 
-Router::get('/test', [\MiniRest\Http\Controllers\TestController::class, 'test']);
+Router::post('/test', [\MiniRest\Http\Controllers\TestController::class, 'test']);
