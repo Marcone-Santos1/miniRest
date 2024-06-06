@@ -16,7 +16,7 @@
         }
     ],
     "require": {
-        "ms580/mini-rest-framework": "^0.0.9"
+        "ms580/mini-rest-framework": "^0.1"
     },
     "require-dev": {
         "phpunit/phpunit": "^10.3"
