@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6378c366d8950fed37cc69bca4d300a7",
+    "content-hash": "73614eff8e1162e98b86a9a433ac0fa2",
     "packages": [
         {
             "name": "aws/aws-crt-php",
@@ -1423,16 +1423,16 @@
         },
         {
             "name": "ms580/mini-rest-framework",
-            "version": "0.1",
+            "version": "2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Marcone-Santos1/Framework.git",
-                "reference": "80f7cafaae2f99f5ee7036303b91b4deacfaf9ed"
+                "reference": "a1f7d3cf42014b5a623a524107f5307a9fba0ea4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Marcone-Santos1/Framework/zipball/80f7cafaae2f99f5ee7036303b91b4deacfaf9ed",
-                "reference": "80f7cafaae2f99f5ee7036303b91b4deacfaf9ed",
+                "url": "https://api.github.com/repos/Marcone-Santos1/Framework/zipball/a1f7d3cf42014b5a623a524107f5307a9fba0ea4",
+                "reference": "a1f7d3cf42014b5a623a524107f5307a9fba0ea4",
                 "shasum": ""
             },
             "require": {
@@ -1467,9 +1467,9 @@
             ],
             "support": {
                 "issues": "https://github.com/Marcone-Santos1/Framework/issues",
-                "source": "https://github.com/Marcone-Santos1/Framework/tree/0.1"
+                "source": "https://github.com/Marcone-Santos1/Framework/tree/2.0.0"
             },
-            "time": "2024-06-06T01:38:03+00:00"
+            "time": "2024-06-06T15:01:31+00:00"
         },
         {
             "name": "mtdowling/jmespath.php",
