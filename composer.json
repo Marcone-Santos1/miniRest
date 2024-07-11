@@ -4,9 +4,6 @@
         "psr-4": {
             "MiniRest\\": "src/"
         },
-        "classmap": [
-            "src/Models"
-        ],
         "files": ["src/Helpers/helpers.php"]
     },
     "authors": [
@@ -16,7 +13,7 @@
         }
     ],
     "require": {
-        "ms580/mini-rest-framework": "^2.2.3"
+        "ms580/mini-rest-framework": "^2.4.0"
     },
     "require-dev": {
         "phpunit/phpunit": "^10.3"
